@@ -1,0 +1,33 @@
+facewall
+======
+A put to wall
+
+LICENSE
+======
+
+facewall is licensed under MIT license 
+http://www.opensource.org/licenses/mit-license.php
+
+INSTALL and run
+======
+
+The things required before you make a wall of faces
+------
+
+* Python
+* PIL: Python Image Library
+* Download some equal sized avatar files(from some microbloging service?) to the folder palette
+* Find a template image which size should be around 100x100, name it to template.png
+
+run
+```
+% cd facewall
+% python makewall.py prepare  # collect color info from palette avatars
+% python makewall.py template.png
+```
+
+You will see a file wall.jpg if there is no error. good luck!
+
+
+
+
